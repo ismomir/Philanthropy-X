@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #0f0f0f;
+    background-color: #ffffff;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Шапка */
+.header {
+    padding: 24px 0;
+    background-color: #ffffff;
+}
+
+.header-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Левая часть (лого + ссылки) */
+.header-left {
+    display: flex;
+    align-items: center;
+    gap: 48px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    color: #0f0f0f;
+}
+
+.logo-icon {
+    width: 32px;
+    height: auto;
+}
+
+.logo-text {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #0f0f0f;
+    font-size: 16px;
+}
+
+.nav-link:hover {
+    color: #ff9c08;
+}
+
+/* Правая часть (корзина + кнопка) */
+.header-right {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.cart {
+    position: relative;
+    display: flex;
+    align-items: center;
+    
+}
+
+.cart-icon {
+    width: 28px;
+    height: auto;
+}
+
+.cart-badge {
+    position: absolute;
+    bottom: -4px;
+    left: -6px;
+    background-color: #ff9c08;
+    color: #ffffff;
+    font-size: 11px;
+    font-weight: 700;
+    width: 18px;
+    height: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2px;
+}
+
+/* Кнопка Donate now */
+.btn-donate {
+    background-color: #ff9c08;
+    color: #0f0f0f;
+    border: none;
+    border-radius: 10px;
+    padding: 16px 28px;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.btn-donate:hover {
+    background-color: #e68a00;
+}
