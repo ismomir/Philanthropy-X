@@ -504,6 +504,8 @@ background-color: #fed49c;
 .mission-section {
     background-color: #ffffff;
     padding: 60px 0 40px;
+    margin-right: 60px;
+    margin-left: 60px;
 }
 
 .mission-columns {
@@ -539,3 +541,82 @@ background-color: #fed49c;
     margin-left: -10px;
 }
 /* ++++++++++++++++++++++++++ */
+
+/* Секция How We Help */
+.help-section {
+    background-color: white;
+    padding: 90px 0 110px;
+}
+.containerr{
+    margin-right: 60px;
+    margin-left: 60px;
+}
+.section-subtitle{
+    color: #FF9C08;
+   position: relative;
+   z-index: 1;
+   top: -50px;
+}
+
+.help-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 32px;
+    margin-bottom: 56px;
+    
+}
+
+.help-heading-box {
+    max-width: 560px;
+}
+
+.help-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 28px;
+   
+}
+
+.help-card {
+     width: 388px;
+    height: 400px;
+    flex: 1 1  30%;
+    background-color: #ffffff;
+    border: 1px solid #f0ece6;
+    border-radius: 14px;
+    padding: 40px 28px;
+    text-align: center;
+    box-shadow: 0 8px 24px rgba(15, 15, 15, 0.03);
+}
+
+.help-icon-circle {
+    width: 96px;
+    height: 96px;
+    border-radius: 50%;
+    background-color: #fff3e0;
+    margin: 0 auto 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.help-card-icon {
+    width: 90px;
+    height: 90px;
+    object-fit: contain;
+    display: block;
+}
+
+.help-card-title {
+    font-size: 20px;
+    font-weight: 700;
+    color: #0f0f0f;
+    margin-bottom: 12px;
+}
+
+.help-card-text {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #7a7a7a;
+}
