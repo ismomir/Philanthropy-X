@@ -699,3 +699,99 @@ background-color: #fed49c;
 .testimonials-btn {
     margin-top: 32px;
 }
+/* ++++++++++++++++++++++++++++ */
+/* Секция News & Resources */
+.news-section {
+    background-color: #ffffff;
+    padding: 120px 0 100px;
+    margin-right: 60px;
+    margin-left: 60px;
+    margin-top: 60px;
+}
+
+.news-header {
+    text-align: center;
+    margin-bottom: 56px;
+    
+
+}
+
+.news-grid {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 32px;
+}
+
+.news-card {
+    flex: 1 1 48%;
+}
+
+.news-img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    display: block;
+}
+
+/* Белый блок карточки, заезжающий снизу на фото */
+.news-content {
+    position: relative;
+    z-index: 2;
+    width: 88%;
+    margin: -64px 0 0 auto;
+    background-color: #ffffff;
+    border-radius: 12px;
+    padding: 28px 32px 32px;
+    box-shadow: 0 12px 32px rgba(15, 15, 15, 0.06);
+}
+
+.news-meta {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin-bottom: 18px;
+}
+
+.news-tag {
+    display: inline-block;
+    padding: 6px 14px;
+    border: 1px solid #ece8e1;
+    border-radius: 6px;
+    font-size: 13px;
+    font-weight: 600;
+    color: #222222;
+    background-color: #ffffff;
+}
+
+.news-date {
+    font-size: 13px;
+    color: #8a8a8a;
+}
+
+.news-title {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 1.35;
+    color: #0f0f0f;
+    margin-bottom: 24px;
+}
+
+.news-link {
+    display: inline-block;
+    max-width: 48px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.35;
+    color: #0f0f0f;
+    text-decoration: none;
+}
+
+/* Нижние кнопки по центру */
+.news-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 64px;
+}
