@@ -8,13 +8,11 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     color: #0f0f0f;
     background-color: #ffffff;
-}
-
-.container {
-    max-width: 1200px;
+    max-width: 1395px;
     margin: 0 auto;
     padding: 0 20px;
 }
+
 
 /* Шапка */
 .header {
@@ -51,6 +49,16 @@ body {
 .logo-text {
     font-size: 22px;
     font-weight: 700;
+}
+.header-line {
+   width: 676px;
+    height: 3px;
+    background-color: #F1EEEA;
+    position: absolute;
+    z-index: 100;
+     top: 99px;
+     
+    
 }
 
 .nav {
@@ -119,3 +127,94 @@ body {
 .btn-donate:hover {
     background-color: #e68a00;
 }
+/* ++++++++++++++++++++++++++++++++++++++++ */
+
+/* Первая секция (Hero) */
+.hero {
+    background-color: #ffffff;
+    position: relative;
+     max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20p
+    
+}
+
+.hero-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Левая колонка выравнивается по левому краю контейнера 1200px */
+.hero-left {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    padding-left: 20px;
+    padding-right: 40px;
+}
+
+.hero-content {
+    max-width: 560px;
+    width: 100%;
+    padding: 80px 0 110px;
+}
+
+.hero-line {
+    width: 85px;
+    height: 3px;
+    background-color: #ff9c08;
+    margin-bottom: 24px;
+}
+
+.hero-title {
+    font-size: 54px;
+    font-weight: 700;
+    line-height: 1.15;
+    color: #0f0f0f;
+    margin-bottom: 20px;
+}
+
+.hero-desc {
+    font-size: 17px;
+    line-height: 1.6;
+    color: #6e6e6e;
+    margin-bottom: 36px;
+}
+
+.hero-buttons {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+/* Вторая белая кнопка с рамкой */
+.btn-secondary {
+    background-color: #ffffff;
+    color: #0f0f0f;
+    border: 1px solid #e5e5e5;
+    border-radius: 10px;
+    padding: 16px 28px;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.btn-secondary:hover {
+    border-color: #0f0f0f;
+}
+
+/* Правая колонка с фото вплотную к правому краю */
+.hero-right {
+    width: 50%;
+}
+
+.hero-img {
+    width: 677px;
+    height: 869px;    
+    display: block;
+    position: relative;
+    top: 80px;    /* Сдвигаем фото вниз на 80px поверх следующей секции */
+    z-index: 2;
+}
+
