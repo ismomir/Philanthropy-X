@@ -372,3 +372,70 @@ body {
     height: 22px;
     display: block;
 }
+/* ++++++++++++++++++++ */
+/* Секция Our Results */
+.results-section {
+    background-color: #ffffff;
+    padding: 100px 0;
+    margin-right: 60px;
+    margin-left: 60px;
+}
+
+.results-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 56px;
+}
+
+.results-left {
+    width: 52%;
+}
+
+.results-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px 24px;
+    margin-top: 32px;
+    margin-bottom: 40px;
+}
+
+.result-card {
+    width: calc(50% - 12px);
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+
+
+.result-icon {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+}
+
+.result-number {
+    font-size: 26px;
+    font-weight: 700;
+    color: #0f0f0f;
+    line-height: 1.2;
+}
+
+.result-label {
+    font-size: 14px;
+    color: #6e6e6e;
+    margin-top: 2px;
+}
+
+.results-right {
+    width: 48%;
+}
+
+.results-img {
+    width: 584px;
+    height: 688px;
+    object-fit: cover;
+    border-radius: 12px;
+    display: block;
+}
