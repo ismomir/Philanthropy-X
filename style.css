@@ -620,3 +620,82 @@ background-color: #fed49c;
     line-height: 1.6;
     color: #7a7a7a;
 }
+/* +++++++++++++++++++++++++++++ */
+/* Секция Testimonials */
+.testimonials-section {
+    background-color: #fffaf2;
+    padding: 100px 0 120px;
+}
+
+.testimonials-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 64px;
+    margin-left: 80px;
+    margin-right: 80px;
+   
+}
+
+.testimonials-left {
+    width: 48%;
+}
+
+.testimonial-photo-box {
+    position: relative;
+}
+
+.testimonial-img {
+    width: 574px;
+    height: 635px;
+    object-fit: cover;
+    border-radius: 12px;
+    display: block;
+}
+
+/* Белая карточка с цитатой поверх нижнего правого края фото */
+.quote-card {
+    position: absolute;
+    right: -24px;
+    bottom: -48px;
+    width: 340px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    padding: 28px;
+    box-shadow: 0 16px 36px rgba(15, 15, 15, 0.08);
+}
+
+.quote-text {
+    font-size: 14px;
+    line-height: 1.65;
+    color: #6e6e6e;
+    margin-bottom: 18px;
+}
+
+.quote-author {
+    font-size: 15px;
+    font-weight: 700;
+    color: #0f0f0f;
+    margin-bottom: 4px;
+}
+
+.quote-role {
+    font-size: 13px;
+    color: #8a8a8a;
+}
+
+/* Правая колонка */
+.testimonials-right {
+    width: 52%;
+}
+
+.testimonials-desc {
+    font-size: 15px;
+    line-height: 1.6;
+    color: #7a7a7a;
+    margin-bottom: 28px;
+}
+
+.testimonials-btn {
+    margin-top: 32px;
+}
